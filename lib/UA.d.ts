@@ -44,6 +44,7 @@ export interface UAConfiguration {
   registrar_server?: string;
   use_preloaded_route?: boolean;
   user_agent?: string;
+  with_react_native: boolean;
 }
 
 export interface IncomingRTCSessionEvent {
